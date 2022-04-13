@@ -30,9 +30,9 @@
 </ul>
 
 <h2 align="center">Resumo</h2>
-<p>Junto dessa documentação, será possível você realizar um CRUD utilizando NodeJS. Não utilizaremos dados complexos ou externos de banco de dados, o principal objetivo aqui é você entender os conceitos de um CRUD na prática.</p>
+<p>Com o auxílio dessa documentação, você vai conseguir fazer um CRUD utilizando NodeJS. <b>Não utilizaremos dados complexos ou externos de banco de dados e também não contaremos com uma arquitetura e estrutura organizada e planejada</b>, tudo será feito em um pequeno arquivo "index.js". O principal objetivo aqui é você entender os conceitos de um CRUD na prática.</p>
 
-<h2 align="center">Qualquer dúvida você pode consultar aqui ou me <a href="https://www.instagram.com/la.codes/">PERGUNTAR</a></h2>
+<h2 align="center">Qualquer dúvida você pode consultar aqui...</h2>
 <h3>O que é API</h3>
 <p>API é...</p>
 <br>
@@ -45,12 +45,20 @@
 <p>JSON é...</p>
 <br>
 
-<h3>O que é métodos HTTP</h3>
+<h3>O que é e quais são os métodos HTTP</h3>
 <p>HTTP é...</p>
 <br>
 
 <h3>Sobre NodeJS</h3>
 <p>NodeJS é...</p>
+<br>
+
+<h3>Sobre Insomnia</h3>
+<p>Insomnia é...</p>
+<br>
+
+<h3>Sobre NPM</h3>
+<p>NPM é...</p>
 <br>
 
 <h1 align="center">🔥 Configurando o ambiente...</h1>
