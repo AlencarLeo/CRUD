@@ -3,65 +3,65 @@ const server = express();
 
 server.use(express.json()) //utilizamos para métodos em JSON como o POST
 
-let customers = [
-  {id: 1, name: "Dev Samurai", site: "http://devsamurai.com.br"},
-  {id: 2, name: "Google", site: "http://google.com"},
-  {id: 3, name: "UOL", site: "http://uol.com.br"}
+let users = [
+  {id: 1, name: "usuário 1", email: "user1@gmail.com"},
+  {id: 2, name: "usuário 2", email: "user2@hotmail.com"},
+  {id: 3, name: "usuário 3", email: "user3@outlook.com"}
 ];
 
 //READ
-server.get('/customers', (req, res) => {
-  return res.json(customers);
+server.get('/users', (req, res) => {
+  return res.json(users);
 })
 
-server.get('/customers/:id', (req, res) => {
+server.get('/users/:id', (req, res) => {
   const id = parseInt(req.params.id);
-  const customer = customers.find( item => item.id === id);
+  const user = users.find( item => item.id === id);
 
-  const status = customer ? 200 : 404;
+  const status = user ? 200 : 404;
 
-  return res.status(status).json(customer);
+  return res.status(status).json(user);
 })
 
 //CREATE
-server.post('/customers', (req, res) => {
-  const { name, site } = req.body; //server.use(express.json()) utilizado para captar aqui
-  const id = customers[customers.length - 1].id + 1;
+server.post('/users', (req, res) => {
+  const { name, email } = req.body; //server.use(express.json()) utilizado para captar aqui
+  const id = users[users.length - 1].id + 1;
 
-  const newCustomer = { id, name, site };
-  customers.push(newCustomer);
+  const newUser = { id, name, email };
+  users.push(newUser);
 
-  return res.status(201).json(newCustomer);
+  return res.status(201).json(newUser);
 })
 
 //UPDATE
-server.put('/customers/:id', (req, res) => {
+server.put('/users/:id', (req, res) => {
   const id = parseInt(req.params.id);
-  const { name, site } = req.body;
+  const { name, email } = req.body;
 
-  const index = customers.findIndex(item => item.id === id);
+  const index = users.findIndex(item => item.id === id);
 
-  const hasIndex = index >= 0 && index < customers.length;
+  const hasIndex = index >= 0 && index < users.length;
   const status =  hasIndex ? 200 : 404;
 
   if(hasIndex){
-    customers[index] = { id, name, site};
+    users[index] = { id, name, email};
   }
 
-  return res.status(status).json(customers[index]);
+  return res.status(status).json(users[index]);
 })
 
 //DELETE
-server.delete('/customers/:id', (req, res) => {
+server.delete('/users/:id', (req, res) => {
   const id = parseInt(req.params.id);
   
-  const index = customers.findIndex(item => item.id === id);
+  const index = users.findIndex(item => item.id === id);
 
-  const hasIndex = index >= 0 && index < customers.length;
+  const hasIndex = index >= 0 && index < users.length;
   const status =  hasIndex ? 200 : 404;
 
   if(hasIndex){
-    customers.splice(index, 1);
+    users.splice(index, 1);
   }
 
   return res.status(status).json();
