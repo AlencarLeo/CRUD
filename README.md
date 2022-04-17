@@ -64,11 +64,18 @@
 <h1 align="center">🔥 Configurando o ambiente...</h1>
 <h3>Configurando nosso cliente que vai consumir a API (aqui utilizei o <a href="https://insomnia.rest/download">Insomnia</a>)</h3>
 <p>Para isso, basta abrir o Insomnia e criar 4 métodos HTTP, sendo eles: GET, POST, UPDATE e DELETE. Para todos utilizaremos a seguinte rota: <b>http://localhost:3000/clientes</b>. Isso significa que, estamos configurando em um ambiente local (sua máquina/seu ip, por isso utilizamos <b>"localhost"</b>), na porta <b>3000</b> e na rota <b>"clientes"</b>.</p>
-
+<h3>Configurando NodeJS</h3>
+<p>Configurando...<p>
+<br>
 
 <br>
 
 <h1 align="center">🚀 Vamos para a prática!</h1>
+<h3>Começando o projeto CRUD</h3>
+<p>Após a instalação e a configuração do que foi pedido acima, vamos iniciar a parte prática de vez!<p>
+<p>Crie uma pasta e abra em seu VSCode. Logo após com o atalho "CTRL + J", você vai abrir seu terminal diretamente do VSCode e no caminho da pasta aberta no IDE. Em seguida basta digitar <code>npm init</code>, com isso...<p>
+<br>
+
 <h3>👀 READ</h3>
 <p>Vamos iniciar nosso CRUD construindo o método que vai permitir que você vizualise os dados de sua API.<p>
 <br>
