@@ -73,8 +73,26 @@
 <h1 align="center">🚀 Vamos para a prática!</h1>
 <h3>Começando o projeto CRUD</h3>
 <p>Após a instalação e a configuração do que foi pedido acima, vamos iniciar a parte prática de vez!<p>
-<p>Crie uma pasta e abra em seu VSCode. Logo após com o atalho "CTRL + J", você vai abrir seu terminal diretamente do VSCode e no caminho da pasta aberta no IDE. Em seguida basta digitar <code>npm init</code>, com isso...<p>
+<p>Crie uma pasta e abra em seu VSCode. Logo após com o atalho "CTRL + J", você vai abrir seu terminal diretamente do VSCode e no caminho da pasta aberta no IDE. Em seguida basta digitar <code>npm init</code>, com isso iniciamos nosso pacote, criando o arquivo package.json -esse arquivo contém toda configuração utilizada para determinar e configurar dependências do seu projeto, tais como os pacotes qual sua aplicação dependerá e scripts de automatização-.</p>
 <br>
+<p>GIF FAZENDO NPM INIT</p>
+<br>
+<p>Agora crie uma pasta "index.js" e instale as dependencias necessárias. Como faremos um CRUD simples utilizaremos na construção do projeto apenas o <a href="">Express.js</a> e o <a href="">nodemon</a>, sendo este último não obrigatório, ele vai facilitar o nosso desenvolvimento com a automação do nosso ambiente.</p>
+<br>
+<p>GIF MOSTRANDO INSTALAÇÂO DAS DEPENDENCIAS</p>
+<br>
+<p>Com essas dependencias instaladas, o packed.json criado no inicio e o arquivo index.js criado, sua pasta deverá estar desse jeito</p>
+<br>
+<p>IMG MOSTRANDO PASTAS</p>
+<br>
+
+
+<h3>Base do nosso projeto</h3>
+<p>IMG1<p>
+<p></p>
+<br>
+
+
 
 <h3>👀 READ</h3>
 <p>Vamos iniciar nosso CRUD construindo o método que vai permitir que você vizualise os dados de sua API.<p>
