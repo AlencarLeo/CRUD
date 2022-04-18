@@ -41,6 +41,10 @@
 <p>CRUD é...</p>
 <br>
 
+<h3>O que é Middleware</h3>
+<p>Middleware é...</p>
+<br>
+
 <h3>O que é JSON</h3>
 <p>JSON é...</p>
 <br>
@@ -51,6 +55,14 @@
 
 <h3>Sobre NodeJS</h3>
 <p>NodeJS é...</p>
+<br>
+
+<h3>Sobre Express</h3>
+<p>Express é...</p>
+<br>
+
+<h3>Sobre Nodemom</h3>
+<p>Nodemom é...</p>
 <br>
 
 <h3>Sobre Insomnia</h3>
@@ -83,13 +95,23 @@
 <br>
 <p>Com essas dependencias instaladas, o packed.json criado no inicio e o arquivo index.js criado, sua pasta deverá estar desse jeito</p>
 <br>
-<p>IMG MOSTRANDO PASTAS</p>
+<p align="center">
+  <img src="imgs/start-files.png" alt="estrutura de arquivos inicial">
+</p>
 <br>
 
 
 <h3>Base do nosso projeto</h3>
-<p>IMG1<p>
-<p></p>
+<p align="center">
+  <img src="imgs/img1.png" alt="estrutura de arquivos inicial">
+</p>
+<p>Para você entender melhor o que está acontecendo aqui, explicarei linha a linha o projeto por inteiro.</p>
+<p><code>const express = require('express')</code> -> Importa o framework que instalamos;</p>
+<p><code>const app = express()</code> -> Adiciona todos seus recursos na variável "app";</p>
+<p><code>app.use(express.json())</code> -> Indica para nossa variável app que contem os recursos do framework, usar o middleware "json()", qual vai facilitar a interpretação desses objetos;</p>
+<p><code>let users = []</code> -> Uma array de objetos que criamos para representar nosso banco de dados, nela que vamos realizar nosso CRUD. Lembrando que as modificações não são permanentes, ela reseta com a finalização de nosso servidor (ao fechar o programa);</p>
+<p><code>app.listen(3000)</code> -> Todo nosso códi terá que ficar antes dessa linha, indiquei com o comentário "CRUD" o local que todo nosso CRUD vai ocorrer, essa linha é responsável de dizer que nosso servidor utilizará a porta 3000, com isso nossa url para acessálo via browser ou pelo cliente REST será: <b>https://localhost:3000></b>;</p>
+
 <br>
 
 
