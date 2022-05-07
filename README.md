@@ -23,7 +23,7 @@
 
 <h2>⚙️ O que você vai precisar</h2>
 <ul>
-  <li>Editor de texto (recomendo o <a href="https://code.visualstudio.com/download">VSCode</a>)</li>
+  <li>IDE (recomendo o <a href="https://code.visualstudio.com/download">VSCode</a>)</li>
   <li><a href="https://nodejs.org/en/">NodeJS</a></li>
   <li>Insomnia ou Postman (utilizo <a href="https://insomnia.rest/download">Insomnia</a>)</li>
   <li><a href="https://www.npmjs.com/">NPM</a> ou <a href="https://yarnpkg.com/">Yarn</a></li>
@@ -46,7 +46,17 @@
 <br>
 
 <h3>O que é JSON</h3>
-<p>JSON é...</p>
+<p>JSON significa JavaScript Object Notation. Ele se resume em um formato de representação de dados que é leve para troca de informações entre sistemas. Ele utiliza o formato de chave e valor, sendo o mais utilizado para APIs e arquivos de configurações. Fique tranquilo, se você é familiarizado com objetos em JavaScript, JSON não vai ser um problema para você. Aceita diversos tipos de dados: 
+<ul>
+  <li>Strings</li>
+  <li>Numbers</li>
+  <li>Arrays</li>
+  <li>Objetos</li>
+  <li>Null</li>
+  <li>Boolean</li>
+</ul>
+<p align="center"><a href="https://www.instagram.com/p/CcYucwrPQRK/">Clique aqui e saiba mais de JSON</a></p>
+</p>
 <br>
 
 <h3>O que é e quais são os métodos HTTP</h3>
