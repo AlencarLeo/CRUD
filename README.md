@@ -76,7 +76,7 @@
 <br>
 
 <h3>Sobre Insomnia</h3>
-<p>Insomnia é...</p>
+<p>Insomnia é uma ferramenta cliente para API REST...</p>
 <br>
 
 <h3>Sobre NPM</h3>
