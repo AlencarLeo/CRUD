@@ -60,7 +60,21 @@
 <br>
 
 <h3>O que é e quais são os métodos HTTP</h3>
-<p>HTTP é...</p>
+<p>HTTP é um protocolo que define um conjunto de métodos de requisição responsáveis por indicar a ação a ser executada para um dado recurso. Para cada ação temos diferentes "verbos", quais indicam a ação que será tomada. Para realizar esse CRUD, vamos usar:</p>
+<ul>
+  <li>
+    GET - Esse verbo é um método qual solicita uma representação de recurso, ou seja, ela fará o "read" de nosso CRUD, pois vai retornar uma listagem ou apenas um recurso quando específicado junto com os <a href="">querys</a> da nossa <a href="">URI</a>.
+  </li> 
+  <li>
+    POST - ...
+  </li> 
+  <li>
+    PUT - ...
+  </li>
+  <li>
+    DELETE - ...
+  </li> 
+<ul>
 <br>
 
 <h3>Sobre NodeJS</h3>
