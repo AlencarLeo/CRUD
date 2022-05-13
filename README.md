@@ -90,7 +90,7 @@
 <br>
 
 <h3>Sobre Insomnia</h3>
-<p>Insomnia é uma ferramenta cliente para API REST...</p>
+<p>Insomnia é uma ferramenta cliente para API REST, utilizado para testes de API, ou seja, com ele vamos testar e ver nosso CRUD acontecendo. Vamos usar essa ferramenta para organizar e vizualizar nossos métodos HTTP.</p>
 <br>
 
 <h3>Sobre NPM</h3>
