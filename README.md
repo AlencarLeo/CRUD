@@ -38,11 +38,17 @@
 <br>
 
 <h3>O que é CRUD</h3>
-<p>CRUD é...</p>
+<p>CRUD (Create, Read, Update, Delete) é um acrônimo para as maneiras de se operar em informação armazenada. Básicamente são as quatro operações básicas para se trabalhar com dados.</p>
+<ul>
+  <li>Create - Cria um dado.</li>
+  <li>Read - Lista um dado.</li>
+  <li>Update - Atualiza um dado.</li>
+  <li>Delete - Deleta um dado.</li>
+</ul>
 <br>
 
 <h3>O que é Middleware</h3>
-<p>Middleware é...</p>
+<p>Middleware é todo o tipo de função que está entre um pedido HTTP e a resposta final que o servidor envia de volta para o cliente. Ou seja, ao usar o "GET", para listar uma informação por exemplo, podemos ter um função antes de executar a resposta dada a esse verbo que foi pedido, tendo uma condiçãoa para seguir, caso de "false", a listagem não será retornada.</p>
 <br>
 
 <h3>O que é JSON</h3>
@@ -66,13 +72,13 @@
     GET - Esse verbo é um método qual solicita uma representação de recurso, ou seja, ela fará o "read" de nosso CRUD, pois vai retornar uma listagem ou apenas um recurso quando específicado junto com os <a href="">querys</a> da nossa <a href="">URI</a>.
   </li> 
   <li>
-    POST - ...
+    POST - Será o verbo reponsável pelo "create" do nosso CRUD, ou seja, com ele será possível o envio de dados para ele.
   </li> 
   <li>
-    PUT - ...
+    PUT - Verbo que será utilizado para o "update" do CRUD. Com ele é possível enviar novos dados, assim atualizando o que desejamos com novas informações.
   </li>
   <li>
-    DELETE - ...
+    DELETE - Como o próprio verbo já diz, esse método vai excluir o dado desejado, sendo assim ele o "delete" do nosso CRUD.
   </li> 
 <ul>
 <br>
