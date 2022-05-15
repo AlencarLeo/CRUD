@@ -35,6 +35,8 @@
 <h2 align="center">Qualquer dúvida você pode consultar aqui...</h2>
 <h3>O que é API</h3>
 <p>API é...</p>
+
+<p align="center"><a href="https://www.instagram.com/p/CZvYe1ZNqSb/">Clique aqui e saiba mais de API</a></p>
 <br>
 
 <h3>O que é CRUD</h3>
@@ -80,7 +82,7 @@
   <li>
     DELETE - Como o próprio verbo já diz, esse método vai excluir o dado desejado, sendo assim ele o "delete" do nosso CRUD.
   </li> 
-<ul>
+</ul>
 <br>
 
 <h3>Sobre NodeJS</h3>
