@@ -91,7 +91,7 @@
 <br>
 
 <h3>Sobre Express</h3>
-<p>Express é o framework de Node mais popular, sendo uma biblioteca necessária para uma série de outros frameworks do Node. Ele oferece soluções minimalista, mas para realizar nosso CRUD, as funções utilizadas nele será para requisições de diferentes verbos HTTP para diferentes URLs, utilização de middlewares, configuração para controle do servidor, como porta utilizada para conexão e o controle de rotas com URIs.</p>
+<p>Express é o framework de Node mais popular, sendo uma biblioteca necessária para uma série de outros frameworks do Node. Ele oferece diversas soluções minimalistas, mas para realizar nosso CRUD, as funções utilizadas nele será para requisições de diferentes verbos HTTP para diferentes URIs, utilização de middlewares, configuração para controle do servidor, como porta utilizada para conexão e o controle de rotas com URIs.</p>
 <br>
 
 <h3>Sobre Nodemom</h3>
