@@ -86,7 +86,8 @@
 <br>
 
 <h3>Sobre NodeJS</h3>
-<p>NodeJS é...</p>
+<p>NodeJS pode ser definido como um ambiente de execução Javascript server-side. Isso significa é possível criar aplicações Javascript, sem depender de um browser para a execução, como estamos acostumados. Ele será uma ferramenta essêncial para a criação da nossa API, sendo possível acessar ela com o Front-End e se integrada com um banco de dados, criar uma super aplicação!</p>
+<p align="center"><a href="https://www.instagram.com/p/CcYucwrPQRK/">Conheça myFit, meu super projeto</a></p>
 <br>
 
 <h3>Sobre Express</h3>
