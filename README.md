@@ -94,6 +94,12 @@
 <p>Express é o framework mais popular de Node, que facilita o desenvolvimento de nossas aplicações. É uma biblioteca necessária para uma série de outros frameworks do Node. Ele oferece diversas soluções minimalistas, mas para realizar nosso CRUD, as funções utilizadas nele será para requisições de diferentes verbos HTTP para diferentes URIs, utilização de middlewares, configuração para controle do servidor, como porta utilizada para conexão e o controle de rotas com URIs.</p>
 <br>
 
+<h3>URL vs URI</h3>
+<p>Abaixo você encontra uma imagem explicativa, para você entender visualmente essa diferença de termos, mas qualquer um vai te entender usando qualquer um dos termos.</p>
+<p align="center">IMG URL VS URI<img src="" alt="url vs uri"/></p>
+<p align="center"><a href="https://www.instagram.com/p/CcYucwrPQRK/">Curta esse post caso queira entender um pouco mais</a></p>
+<br>
+
 <h3>Sobre Nodemom</h3>
 <p>Nodemom é...</p>
 <br>
