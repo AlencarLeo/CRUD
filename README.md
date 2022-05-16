@@ -34,7 +34,7 @@
 
 <h2 align="center">Qualquer dúvida você pode consultar aqui...</h2>
 <h3>O que é API</h3>
-<p>API é...</p>
+<p>API significa Application Programming Interface, ou, em português, Interface de Programação de Aplicativos. Ela faz ponte de um sistema para outro, no qual será possível que um sistema compartilhe suas ações, ferramentas e entre outros, ou seja, eles se conversam. Agora falando no nosso caso, o que é um API REST? API REST é uma API como explicado anteriormente, porém ela utiliza o protocolo HTTP na versão 1.1, ele aceita novos métodos de comunicação como PUT, POST e DELETE, sendo assim possível construir APIs mais poderosas.</p>
 
 <p align="center"><a href="https://www.instagram.com/p/CZvYe1ZNqSb/">Clique aqui e saiba mais de API</a></p>
 <br>
