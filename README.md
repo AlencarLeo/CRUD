@@ -181,27 +181,29 @@
 <p>Vamos iniciar nosso CRUD construindo o método que vai permitir que você vizualise os dados de sua API.<p>
 <p>IMG Parte codigo read</p>
 <br>
-<p>server.get('/users', (req, res) => {<br>
-  return res.json(users);<br>
-})</p> 
+<code>server.get('/users', (req, res) => {</code><br>
+<code>  return res.json(users);</code><br>
+<code>})</code>
 
-<p>Estamos acessando aqui o método get da nossa variável ˜server˜ (lembre-se que nela contém todo nosso framework importado). Estamos usando dois parâmetros, sendo o primeiro o caminho de acesso da nossa função utilizada no segundo parâmetro, ou seja, no caminho "/users", vsmod rncontrar o retorno da nossa função.<br>
-Nossa função é extremamente simples, como é um read geral sem nenhum filtro, ela apenas retorna nosso banco de dados ˜users˜ em json.
+<p>Estamos acessando aqui o método get da nossa variável "server" (lembre-se que nela contém todo nosso framework importado). Estamos usando dois parâmetros, sendo o primeiro o caminho de acesso da nossa função utilizada no segundo parâmetro, ou seja, no caminho "/users", vamos encontrar o retorno da nossa função.<br>
+Nossa função é extremamente simples, como é um read geral sem nenhum filtro, ela apenas retorna nosso banco de dados "users" em json.
 </p>
 <br>
 <p>Para agregar maior conhecimentosa vocês, vou mostrar também um exemplo de read com filtro, lembrando que podemos ir muito além disso. Nele vamos buscar nosso usuário pelo ID, sendo esse ID localizado no caminho passado em nosso primeiro parâmetro.</p>
+
+<code>server.get('/users/:id', (req, res) => {</code><br>
+<code>  ...</code><br>
+<code>})</code><br>
+
 <p>
-server.get('/users/:id', (req, res) => {
-  ...
-})<br>
-Como na anterior estamos passando dois parâmetros, sendo o primerio o caminho (mas agora este possui uma opção de Params).
+  Como na anterior estamos passando dois parâmetros, sendo o primerio o caminho (mas agora este possui uma opção de Params).
 </p>
 
 <p><code>const id = parseInt(req.params.id);</code> -> Criamos uma variável ˜id˜ que puxa o valor do params através de ˜req.params.id˜, como esse valor é dado em string, transformamos em number com o método ˜parseInt˜;</p>
 <p><code>const user = users.find( item => item.id === id);</code> -> Criamos uma variável ˜user˜ que usa o método find em nosso banco de dados ˜users˜. Nele estamos o id de todos os itens e comparando com o id pego do nosso params, caso sejam iguais o valor resultará ˜true˜ retornando então nosso usuário do banco referênte ao ID.;</p>
-
-<p><code>const status = user ? 200 : 404;</code> -> ...;</p>
-
+<p><code>const status = user ? 200 : 404;</code> -> Estamos utilizando um ternário para atribuir um valor para status, caso tenha o usuário, será retornado status 200, caso contrário 404;</p>
+<p><code>return res.status(status).json(user);</code> -> Por fim, retornamos o JSON do usuário filtrado;</p>
+<p align="center"><a href="https://www.instagram.com/p/Cbn1PgXPQd_/?utm_source=ig_web_copy_link">Conheça os métodos de array e iterações</a></p>
 
 <h3>➕ CREATE</h3>
 <p>Vamos iniciar nosso CRUD construindo o método que vai permitir que você vizualise os dados de sua API.<p>
