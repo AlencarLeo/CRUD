@@ -61,6 +61,10 @@
 <p>Query Params...</p>
 <br>
 
+<h3>Desestruturação</h3>
+<p>Desestruturação é...</p>
+<br>
+
 <h3>req</h3>
 <p>A todo momento você vai encontrar esse req, ele nada mais é que um parâmetro passado em nossa função para request. Em nodeJS quando usamos junto com express e utilizamos algum verbo do protocolo HTTP, o primeiro parâmetro da função vai representar a requisição...</p>
 <br>
