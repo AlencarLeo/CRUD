@@ -208,6 +208,17 @@ Nossa função é extremamente simples, como é um read geral sem nenhum filtro,
 <h3>➕ CREATE</h3>
 <p>Vamos iniciar nosso CRUD construindo o método que vai permitir que você vizualise os dados de sua API.<p>
 <br>
+
+<code>server.post('/users', (req, res) => {<code/>
+<code>...<code/>
+<code>})<code/>
+  
+<p><code>const { name, email } = req.body;</code> -> criamos aqui uma constante desestruturado, qual temos ˜name˜ e ˜email˜ que serão captados de nosso body. Lembra do middleware <code>use(express.json())</code>? Ele será usado aqui para interpretar o json captado.</p>
+<p><code>const id = users[users.length - 1].id + 1;</code> -> Em seguida criamos o id para nosso próximo usuário que será criado. Seguindo a lógica apresentada temos que o id será igual o ultimo id do usuário, somado mais 1.</p>
+<p><code>const newUser = { id, name, email };</code>-> Aqui já estamos juntando tudo captado e criado antes em um único obejto.</p>
+<p><code>users.push(newUser);</code>-> Caminhando para o final, adicionamos esse novo usuário com o método <code>push()</code>, qual adiciona algo ao final da array(lembre-se que nosso banco de dados aqui nesse CRUD, não passa de um array de objetos com informações de supostos usuários).</p>
+<p><code>return res.status(201).json(newUser);</code>-> Por fim utilizamos o status 201, indicando o sucesso da ação e retornando nosso usuário.</p>
+
   
 <h3>✏️ UPDATE</h3>
 <p>Vamos iniciar nosso CRUD construindo o método que vai permitir que você vizualise os dados de sua API.<p>
