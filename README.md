@@ -213,9 +213,9 @@ Nossa função é extremamente simples, como é um read geral sem nenhum filtro,
 <p>Vamos iniciar nosso CRUD construindo o método que vai permitir que você vizualise os dados de sua API.<p>
 <br>
 
-<code>server.post('/users', (req, res) => {<code/>
-<code>...<code/>
-<code>})<code/>
+<code>server.post('/users', (req, res) => {</code><br>
+<code>  ...</code><br>
+<code>})</code><br>
   
 <p><code>const { name, email } = req.body;</code> -> criamos aqui uma constante desestruturado, qual temos ˜name˜ e ˜email˜ que serão captados de nosso body. Lembra do middleware <code>use(express.json())</code>? Ele será usado aqui para interpretar o json captado.</p>
 <p><code>const id = users[users.length - 1].id + 1;</code> -> Em seguida criamos o id para nosso próximo usuário que será criado. Seguindo a lógica apresentada temos que o id será igual o ultimo id do usuário, somado mais 1.</p>
